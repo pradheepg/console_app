@@ -56,8 +56,7 @@ public class handels {
         student temp = new student(temp_name,temp_Rollnumber,temp_id);
         temp.set_mark(mark);
         student_list.add(temp);
-
-
+        sc.close();
     }
 
     private Boolean check_id(int id){
